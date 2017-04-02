@@ -24,7 +24,7 @@ export class Person {
    hello():void{
        console.log('hi ' + this.firstname);
        console.log('hi ' + this.lastname);
-       document.write(`Hello ${this.firstname}`);
+
    }
 
 }

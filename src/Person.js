@@ -19,7 +19,6 @@ let Person = class Person {
     hello() {
         console.log('hi ' + this.firstname);
         console.log('hi ' + this.lastname);
-        document.write(`Hello ${this.firstname}`);
     }
 };
 Person = __decorate([

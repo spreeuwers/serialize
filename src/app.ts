@@ -9,4 +9,5 @@ import {Person} from './Person';
     var p = new Person();
     p.hello();
     console.log(Person['__package']);
+
 })();
