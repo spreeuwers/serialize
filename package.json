@@ -8,7 +8,7 @@
     "bundle": "webpack ./src/*.js ./www/bundle.js --watch source-map",
     "dev": "tsc -w",
     "serve": "lite-server",
-    "rollup": "rollup --format=iife --output=./www/app.js -- src/app.js",
+    "rollup": "rollup --sourcemap inline --format=iife --output=./www/app.js -- src/app.js",
     "watch":"npm run npm-watch"
   },
   "author": "",

@@ -2,12 +2,10 @@
  * Created by eddy on 1-4-17.
  */
 import { readonly } from 'core-decorators';
+import { packageName } from './decorators';
 //import {JsonObject} from "typedjson-npm/js/typed-json";
 "use strict";
 
-function packageName( name:string){
-    return function(target) {target.__package = name;}
-}
 
 @packageName('persoon')
 export class Person {

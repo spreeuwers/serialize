@@ -4,6 +4,7 @@
 
 import {Person} from './Person';
 
+
 (function init(){
     console.log('bla!!');
     var p = new Person();
