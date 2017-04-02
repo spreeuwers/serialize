@@ -1,0 +1,22 @@
+{
+  "name": "serializer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bundle": "webpack ./src/*.js ./www/bundle.js --watch source-map",
+    "dev": "tsc -w",
+    "serve":"lite-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "liteserver": "^0.3.0",
+    "typescript": "^2.2.2"
+  },
+  "dependencies": {
+    "core-decorators": "^0.15.0",
+    "typedjson-npm": "^0.1.6"
+  }
+}
